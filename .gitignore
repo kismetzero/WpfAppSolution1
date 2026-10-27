@@ -1,0 +1,15 @@
+# VS2022 用户配置和缓存
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# 编译输出目录
+bin/
+obj/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+

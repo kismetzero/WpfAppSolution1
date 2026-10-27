@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfAppProject1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppProject1"
+        mc:Ignorable="d"
+        Title="MainWindow" Width="800" Height="600"
+        MouseMove="Window_MouseMove">
+    <!--<Grid> </Grid>-->
+    <Canvas x:Name="RootCanvas">
+        <Label x:Name="MousePosLabel" Content="x:0 y:0" />
+        <Button x:Name="ShyButton" Canvas.Left="360" Canvas.Top="285" Width="80" Height="30" Content="Hello World!" Click="ShyButton_Click" />
+    </Canvas>
+</Window>
